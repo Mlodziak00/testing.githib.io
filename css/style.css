@@ -1,0 +1,56 @@
+body {
+    background: #79A6FF;
+    font: 100% Arial, Sans Serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    z-index: -2;
+}
+
+main {
+    content: "";
+    background-image: url(./../assets/img/bg/headerbg.png);
+    margin-top: 300px;
+    height: 64px;
+}
+
+.container {
+    background-image: url(./../assets/img/bg/bg1.png);
+    background-color: black;
+    height: 175vh;
+}
+
+.darkener {
+    content: "";
+    background: linear-gradient(180deg, transparent 0%, transparent, rgba(0, 0, 0, 0.5) 10%);
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Delicious;
+    src: url('./../assets/font/MinecraftRegular.otf');
+}
+
+@font-face {
+    font-family: Delicious;
+    font-weight: bold;
+    src: url('./../assets/font/MinecraftBold.otf');
+}
+table {
+    color: white;
+    font-family: Delicious;
+    font-size: 200%;
+    border: 64px solid transparent;
+    border-image: url(./../assets/img/border/border.png) 128 round;
+    background-image: url(./../assets/img/border/borderbg.png);
+    background-size: 55.5px;
+    background-repeat: repeat;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr, td{
+    border: 4px #B99A60 solid;
+    background-color: #836d43;
+}
