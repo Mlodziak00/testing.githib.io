@@ -54,3 +54,9 @@ tr, td{
     border: 4px #B99A60 solid;
     background-color: #836d43;
 }
+.flower{
+    background-image: url(./../assets/img/bg/bg2.png);
+    position: relative;
+    bottom: 0;
+    left: 0;
+}

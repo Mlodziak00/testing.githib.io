@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Delicious;
+    src: url('./../assets/font/MinecraftRegular.otf');
+}
+
+@font-face {
+    font-family: Delicious;
+    font-weight: bold;
+    src: url('./../assets/font/MinecraftBold.otf');
+}
+body {
+    background: black;
+    font-size: 300%;
+    font: 100% Arial, Sans Serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    z-index: -2;
+}
+
+.fade-in-image {
+    content: "";
+    background-image: url(./../assets/img/bg/flowerbg.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+    z-index: -1;
+    animation: fadeInBG 10s ease-in-out ;
+}
+
+.fade-in-text {
+    float: left;
+    padding-top: 30px;
+    width: 50%;
+    font-family: Delicious;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    animation: fadeInT 20s;
+    margin-left: 15px;
+}
+.fade-in-text2 {
+    font-family: Delicious;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    animation: fadeInT 30s;
+}
+.fade-in-text3 {
+    font-family: Delicious;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    animation: fadeInT 50s;
+}
+.fade-in-text4 {
+    font-family: Delicious;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    animation: fadeInT 60s;
+}
+.fade-in-iamge2 {
+    float: right;
+    margin-right: 100px;
+    margin-top: 120px;
+    animation: fadeInIMG 60s;
+}
+
+@keyframes fadeInBG {
+    0% {
+        opacity: 0.0;
+    }
+
+    80% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes fadeInT {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInIMG {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
